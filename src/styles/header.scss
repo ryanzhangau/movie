@@ -1,0 +1,21 @@
+header {
+  background-color: #4285f4;
+  color: white;
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  grid-template-rows: 80px;
+  font-family: Arial;
+  align-items: center;
+}
+.logo {
+  font-size: 50px;
+  text-align: center;
+  font-style: italic;
+  grid-column: 1;
+  grid-row: 1;
+  .site-title {
+    font-size: 16px;
+    text-align: center;
+    margin-top: -10px;
+  }
+}
