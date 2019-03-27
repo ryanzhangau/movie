@@ -4,7 +4,7 @@ const initState = {
   view: "movie"
 };
 
-const MovieReducer = (state = initState, action) => {
+const movieReducer = (state = initState, action) => {
   const newState = JSON.parse(JSON.stringify(state));
   switch (action.type) {
     case "LOAD_MOVIES":
@@ -26,3 +26,5 @@ const MovieReducer = (state = initState, action) => {
       return state;
   }
 };
+
+export default movieReducer;
