@@ -18,7 +18,7 @@ const Movie = props => {
 Movie.propTypes = {
   id: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequireds
+  image: PropTypes.string.isRequired
 };
 
 export default Movie;
